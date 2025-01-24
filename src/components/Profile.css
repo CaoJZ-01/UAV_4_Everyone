@@ -1,0 +1,66 @@
+/* Add some basic styling to the profile container */
+.profile-container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 40%; /* Set the width to 50% */
+    height: 50%;
+    margin: 0%; /* Add margin for spacing */
+    box-sizing: border-box;
+    vertical-align: top;
+    transition: transform 0.3s ease, text-decoration 0.3s ease;
+  }
+
+  .profile-container:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Style the profile image */
+  .profile-image {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 40%;
+    margin-bottom: 5px;
+    box-shadow: 1 1 5px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    display: block;
+  }
+
+  .profile-text-container {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1px; /* Add margin to separate image and text */
+    position: relative;
+    width: 70%;
+    top: 0;
+  }
+  
+  /* Add some style to the profile name */
+  .profile-name {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    color: #121212;
+  }
+  
+  /* Style the profile role */
+  .profile-role {
+    font-size: 1.0em;
+    color: #666;
+  }
+  
+  /* Add hover effect to the profile container */
+  .profile-container:hover {
+    background-color: #f9f9f9;
+  }
+  
+
+  

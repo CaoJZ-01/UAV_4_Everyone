@@ -1,0 +1,119 @@
+.knowmore-card {
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.Model-yolov8 {
+    width: 90%;
+    height: 60vh;
+    background-image: url("./Images/yolov8.gif");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, text-decoration 0.3s ease;
+}
+
+.Model-yolov8:hover {
+    transform: scale(1.05);
+}
+
+.Model-yolov8:hover .Yolov8-open-link {
+    text-decoration: underline;
+    color: #ffcc00;
+}
+
+.text-container-knowmore {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 20px;
+}
+
+.Yolov8-text {
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px; /* Adjust the margin to control spacing */
+    line-height: 0.7;
+    margin-left: 5%;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Yolov8-open-link {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+
+.Model-yolov8-seg {
+    width: 100%;
+    height: 60vh;
+    background-image: url("./Images/segmentation.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-radius: 15px;
+}
+
+.Model-SAM {
+    width: 90%;
+    height: 60vh;
+    background-image: url("./Images/SAM.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    transition: transform 0.3s ease, text-decoration 0.3s ease;
+}
+
+.sam-open-link {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+  
+.Model-SAM:hover {
+    transform: scale(1.05);
+}
+
+.Model-SAM:hover .sam-open-link {
+    text-decoration: underline;
+    color: #ffcc00;
+}
+
+.knowmore-paragraph{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-bottom: 60px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+.knowmore-title{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 35px;
+    margin-left: 5%;
+    font-family: 'Times New Roman', Times, serif;
+}

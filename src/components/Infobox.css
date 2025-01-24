@@ -1,0 +1,97 @@
+/* src/Infobox.css */
+
+/* Set a maximum width and center the info-box horizontally */
+.info-box {
+  max-width: 300px; /* Adjust the maximum width as needed */
+  margin: 16px auto; /* Center horizontally */
+  overflow: hidden; /* Hide overflowing content */
+  border: 1px solid #ccc;
+  padding: 20px; /* Increased padding */
+  border-radius: 10px; /* Increased border radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increased box shadow */
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease, border-color 0.3s ease; /* Include border-color in the transition */
+}
+
+.info-box-title {
+  font-size: 24px;
+  margin-bottom: 8px;
+  padding-top: 8px; /* Added padding for better separation */
+  border-top: 2px solid #ccc; /* Increased border thickness */
+}
+
+.info-box-content {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Refine hover effect */
+.info-box:hover {
+  background-color: #f0f0f0; /* Lighter background color on hover */
+  transform: scale(1.05);
+  border-color: #555; /* Darker border color on hover */
+}
+
+/* Style for the clicked state */
+.info-box.clicked {
+  background-color: rgb(34, 201, 196);
+  border-color: transparent; /* Remove border when clicked */
+  transform: scale(1); /* Reset transform on click */
+}
+
+/* Style the info-box as a card with a header and content */
+.info-box {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style the header and content separately */
+.info-box-header {
+  background-color: #333;
+  color: #fff;
+  padding: 12px; /* Slightly increased padding */
+  border-top-left-radius: 10px; /* Match border radius with info-box */
+  border-top-right-radius: 10px; /* Match border radius with info-box */
+}
+
+.info-box-content {
+  flex-grow: 1;
+  padding: 16px;
+}
+
+/* Add a close button to the info-box */
+.info-box-close {
+  position: absolute;
+  top: 12px; /* Adjusted top position */
+  right: 12px; /* Adjusted right position */
+  cursor: pointer;
+  color: #999;
+  font-size: 20px; /* Increased font size */
+}
+
+/* Add a hover effect to the close button */
+.info-box-close:hover {
+  color: #333;
+}
+
+/* Style the info-box as a callout with a border on the left */
+.info-box.callout {
+  border-left: 4px solid #007bff;
+  padding-left: 16px; /* Increased padding */
+  background-color: #f8f8f8;
+}
+
+/* Add a success style with a green background */
+.info-box.success {
+  background-color: #28a745;
+  border-color: #218838;
+  color: #fff;
+}
+
+/* Add a warning style with a yellow background */
+.info-box.warning {
+  background-color: #ffc107;
+  border-color: #ffae00;
+  color: #333;
+}

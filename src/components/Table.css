@@ -1,0 +1,52 @@
+/* Table.css */
+
+/* Style for the entire table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style for table headers and data cells */
+th, td {
+  border: 1px solid #816868;
+  padding: 10px;
+  text-align: center;
+  background-color: #ffffff;
+  color: #000; /* Set text color for data cells */
+}
+
+/* Style for table headers */
+th {
+  background-color: #a778c3;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Add hover effect to table rows (headers and data rows) */
+tr:hover {
+  background-color: #4f1818;
+}
+
+/* Style links within table cells */
+td a {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+/* Style the "name-cell" with a pointer cursor to indicate it's clickable */
+.name-cell {
+  cursor: pointer;
+}
+
+/* Add padding and margin to table caption */
+caption {
+  margin: 10px 0;
+  padding: 5px;
+  font-size: 18px;
+  text-align: center;
+  background-color: #c086e4;
+  color: #ffffff;
+  border-radius: 5px;
+}

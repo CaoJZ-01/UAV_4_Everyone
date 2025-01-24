@@ -1,0 +1,21 @@
+.title {
+  background-image: url('./Images/title_bg.png');
+  background-size: contain;
+  background-repeat: no-repeat; 
+  background-position: center;
+  aspect-ratio: 180 / 55; 
+  width: 100%; 
+  height: auto;
+  color: white; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+}
+
+
+.title h1 {
+  font-size: 54px;
+  padding-right: 30%;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+}

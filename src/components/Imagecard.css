@@ -1,0 +1,51 @@
+/* 整体布局：链接样式 */
+.image-card {
+    display: inline-block;
+    text-decoration: none; /* 移除链接默认下划线 */
+    color: inherit; /* 使用继承的颜色 */
+    width: 90%;
+  }
+  
+  /* 图片容器 */
+  .image-wrapper {
+    position: relative; /* 使文字相对于图片定位 */
+    overflow: hidden; /* 防止图片放大时溢出 */
+    display: inline-block;
+    transition: transform 0.3s ease; /* 平滑缩放过渡效果 */
+  }
+  
+  /* 图片样式 */
+  .image {
+    display: block;
+    width: 100%; /* 图片宽度填满父容器 */
+    height: auto; /* 保持图片比例 */
+    transition: transform 0.3s ease; /* 平滑缩放过渡效果 */
+  }
+  
+  /* 文字样式 */
+  .text {
+    position: absolute; /* 文字定位到图片内 */
+    bottom: 10px; /* 距离底部 */
+    left: 10px; /* 距离左侧 */
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.5); /* 半透明背景，提升可读性 */
+    color: white; /* 文字颜色 */
+    padding: 5px 10px; /* 内边距 */
+    border-radius: 3px; /* 圆角 */
+    transition: transform 0.3s ease, text-decoration 0.3s ease; /* 平滑放大和下划线过渡 */
+  }
+  
+  /* 鼠标悬停效果 */
+  .image-wrapper:hover {
+    transform: scale(1.1); /* 图片整体略微放大 */
+  }
+  
+  .image-wrapper:hover .image {
+    transform: scale(1.1); /* 图片本身也放大 */
+  }
+  
+  .image-wrapper:hover .text {
+    transform: scale(1.1); /* 文字略微放大 */
+    text-decoration: underline; /* 添加下划线 */
+  }
+  
