@@ -7,6 +7,7 @@ import About from "./components/About";
 import Datasets from "./components/Datasets"; // Import the Datasets component
 import Knowmore from "./components/Knowmore";
 import Tableredner from "./components/Tablerender";
+import Tablerederdrone from "./components/Tablerenderdrone";
 import Modelandmetrics from "./components/Modelandmetrics";
 import Joinus from "./components/Joinus";
 import Samdescription from "./components/Samdescription";
@@ -20,6 +21,7 @@ function App() {
         <Route path="/Datasets" element={<Datasets />} /> {/* Route for the Datasets component */}
         <Route path="/Knowmore" element={<Knowmore/>} /> {/* Route for the Know more component*/}
         <Route path="/Tablerender" element={<Tableredner/>} />
+        <Route path="/Tablerenderdrone" element={<Tablerederdrone/>} />
         <Route path="/Modelandmetrics" element={<Modelandmetrics/>} />
         <Route path="/Joinus" element={<Joinus/>} />
         <Route path="/Samdescription" element={<Samdescription/>} />

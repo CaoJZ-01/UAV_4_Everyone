@@ -13,7 +13,7 @@ function Navbar() {
           <li><Link to="/about">About</Link></li> {/* Use Link to navigate to the "About" page */}
             <li>
               <a href="http://localhost:8501/" target="blank">
-                Yolo
+              Detection Algorithm
               </a>
             </li>
             <li><Link to="/datasets">Datasets</Link></li> {/* Include the Datasets link */}
