@@ -12,7 +12,7 @@ function Navbar() {
       <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About</Link></li> {/* Use Link to navigate to the "About" page */}
             <li>
-              <a href="http://localhost:8501/" target="blank">
+              <a href="http://206.12.99.55:8501/" target="blank">
               Detection Algorithm
               </a>
             </li>
