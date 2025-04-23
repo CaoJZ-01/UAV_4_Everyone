@@ -34,7 +34,7 @@ function Modelandmetrics() {
       </div>
       <div className="main-content">
         <div className="title">
-          <Title text="Metrics" />
+          <Title text="Parameters & Metrics" />
         </div>
         <div className="Modelandmetrics-container">
         <h1 className="metrics-title">Models and Metrics</h1>

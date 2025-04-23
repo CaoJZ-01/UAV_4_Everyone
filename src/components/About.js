@@ -42,10 +42,10 @@ function About() {
           />
           <Profile 
             imageSrc={stockimage} 
-            name="Fardad Dadbound" 
+            name="Fardad Dadboud" 
             role="Technical Instructor" 
             Department="ECE"
-            email="fdadbound@uottawa.ca"
+            email="fardad.dadboud@uottawa.ca"
           />
           <Profile 
             imageSrc={jinzhi} 
