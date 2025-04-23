@@ -21,6 +21,8 @@ import G306 from "./GroundSynthetic/306.png";
 import G400 from "./GroundSynthetic/400.png";
 
 function Tablerederdrone() {
+  const line1 = "@inproceedings{dadboud2025drift,";
+
   const data = [
     { id: 1, Datasetname: "Aerial Synthetic", Dateofupload: "10/12/2024", seasonality:"Summer, Fall, Winter",domain:"Drones", description: "Link provided below will download datasets from Hugging Face", datasetlink:"https://huggingface.co/datasets/CARG-uOttawa/DrIFT/resolve/main/Aerial_Synthetic.zip?download=true", imagePath: [A001, A032, A066, A096, A129, A392]},
     { id: 2, Datasetname: "Ground Synthetic", Dateofupload: "10/12/2024",seasonality:"Winter",domain:"Drones", description: "Link provided below will download datasets from Hugging Face", datasetlink:"https://huggingface.co/datasets/CARG-uOttawa/DrIFT/resolve/main/Ground_Synthetic.zip?download=true", imagePath: [G002, G091, G148, G231, G306, G400]},
@@ -47,10 +49,10 @@ function Tablerederdrone() {
       </div>
       <div className="main-content">
         <div className="title">
-          <Title text="Drones Datasets" />
+          <Title text="DrIFT Dataset" />
         </div>
         <div className="tablerender-container">
-          <h1 className="detail-dataset-title">Drones Datasets</h1>
+          <h1 className="detail-dataset-title">DrIFT Dataset</h1>
           <Table data={data} onNameClick={openModal} /> {/* Pass the openModal function */}
           <Modal isOpen={isModalOpen} data={selectedData} onClose={closeModal} /> {/* Render the Modal */}
           <div className="knowmore-card">
@@ -61,23 +63,28 @@ function Tablerederdrone() {
             </p>
             <br></br>
             <p>
-            author: Fardad Dadboud and Hamid Azad and Varun Mehta and Miodrag Bolic and Iraj Mantegh
+            Link to the DrIFT: <a href="https://github.com/CARG-uOttawa/DrIFT">https://github.com/CARG-uOttawa/DrIFT</a>
             </p>
-            <p>
-            year: 2024
-            </p>
-            <p>
-            eprint: 2412.04789
-            </p>
-            <p>
-            archivePrefix: arXiv
-            </p>
-            <p>
-            primaryClass: cs.CV
-            </p>
-            <p>
-            url: https://arxiv.org/abs/2412.04789
-            </p>
+            <br></br>
+            <h2 className="small-bold-text">Citation</h2>
+            <pre className="code-snippet">
+              <code>@inproceedings&#123;dadboud2025drift,</code>
+              <br></br>
+              <code>  title=&#123;DrIFT: Autonomous Drone Dataset with Integrated Real and Synthetic Data, Flexible Views, and Transformed Domains&#125;,</code>
+              <br></br>
+              <code>  author=&#123;Dadboud, Fardad and Azad, Hamid and Mehta, Varun and Bolic, Miodrag and Mantegh, Iraj&#125;,</code>
+              <br></br>
+              <code>  booktitle=&#123;2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)&#125;,</code>
+              <br></br>
+              <code>  pages=&#123;6900--6910&#125;,</code>
+              <br></br>
+              <code>  year=&#123;2025&#125;,</code>
+              <br></br>
+              <code>  organization=&#123;IEEE&#125;</code>
+              <br></br>
+              <code>&#125;</code>
+            </pre>
+            
             <br></br>
           </div>
         </div>

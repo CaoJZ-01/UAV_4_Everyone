@@ -22,7 +22,7 @@ function Datasets() {
           <h2 className="dataset-title">Powerlines Datasets</h2>  
           <Powerlinesbox />
           <Multiplelinebreaks count={1} />
-          <h2 className="dataset-title">Drones Datasets</h2>  
+          <h2 className="dataset-title">DrIFT Dataset</h2>  
           <Driftbox />
           <Multiplelinebreaks count={4} />
         </div>

@@ -12,7 +12,7 @@ const Driftbox = () => {
     <div className="drift-box" onClick={Tablerenderdrone}>
       <div className="text-container-drift">
         <div className="drift-text">
-          <Link to="/Tablerenderdrone" className="open-table-link">Download & Know More About Drones Datasets</Link>
+          <Link to="/Tablerenderdrone" className="open-table-link">Download & Know More About the DrIFT Dataset</Link>
         </div>
       </div>
     </div>

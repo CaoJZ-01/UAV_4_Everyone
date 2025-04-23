@@ -21,3 +21,12 @@
 .knowmore-card {
     margin-left: 0px;
 }
+
+.code-snippet {
+    background-color: #dbdbdb;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+}
