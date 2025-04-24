@@ -18,9 +18,13 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-.knowmore-card {
+.drone-knowmore-card {
+    margin-top: 40px;
     margin-left: 0px;
+    margin-right: 3%;
+    max-width: 100%;
 }
+
 
 .code-snippet {
     background-color: #dbdbdb;

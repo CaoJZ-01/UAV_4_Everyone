@@ -1,38 +1,33 @@
+
+
 .joinus-text {
-    font-size: 20px;
-    margin-top: 10px;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .joinus-slogan {
     font-weight: bold;
-    margin-top: 20px;
     font-style: italic;
     color: #555;
 }
 
 .joinus-container {
+    font-size: 22px;
+    font-family:'Times New Roman', Times, serif;
     margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 25px;
 }
 
-.home-container {
-  background: linear-gradient(to bottom, #f0f4f8, #d9e8fc);
-  font-family: "Roboto", sans-serif;
-  padding: 20px;
-}
 
-.title {
-  text-align: center;
-  margin-bottom: 20px;
-}
 
-.knowmore-card {
+.joinus-card {
   background: #ffffff;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  margin: 20px auto;
-  max-width: 600px;
+  margin: auto;
+  /*max-width: 600px;*/
 }
 
 .joinus-text h2 {

@@ -7,13 +7,15 @@ import "./Joinus.css";
 function Joinus() {
   return (
     <div className="home-container">
-      <Navbar />
+      <div className="Navbar">
+        <Navbar />
+      </div>
       <div className="main-content">
-        <div className="title">
+        <div className="joinus-title">
           <Title text="Join Us" />
         </div>
         <div className="joinus-container">
-          <div className="knowmore-card">
+          <div className="joinus-card">
             <div className="joinus-text">
               <h2>Interested in what we do?</h2>
               <p>
