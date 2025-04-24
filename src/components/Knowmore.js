@@ -33,18 +33,18 @@ function Knowmore() {
             Here we are going to talk about how we utilized each model, their advantages, and drawbacks.
           </p>
  
-          <h2 className="Yolov8-text">Yolo V8 Detection</h2>  
+          <h2 className="Yolov8-text">How we use Yolo V8 Detection in our project</h2>  
           <div className="Model-yolov8" onClick={Yolov8Text}>
             <div className="text-container-knowmore">
-              <div className="Yolov8-open-link">Know more about Yolo V8</div>
+              <div className="Yolov8-open-link">Know more about Yolo V8 in our project</div>
             </div>
           </div>
           <Multiplelinebreaks count={1} />
           
-          <h2 className="Yolov8-text">SAM Model</h2>
+          <h2 className="Yolov8-text">How we use SAM Model in our project</h2>
           <div className="Model-SAM" onClick={navigateToSAMText}>
             <div className="text-container-knowmore">
-              <div className="sam-open-link">Know more about SAM</div>
+              <div className="sam-open-link">Know more about SAM in our project</div>
             </div>
           </div>
         </div>

@@ -16,7 +16,7 @@ function Samdescription() {
           <Title text="SAM Model" />
         </div>
         <div className="modeldescription-container">
-          <h1 className="modeldescription-title">SAM Model: How we did it ?</h1>
+          <h1 className="modeldescription-title">SAM Model: How we use it in the project ?</h1>
           <br/>
           <p className="modeldescription-paragraph">
             Flexibility and repeated review: SAM allows for repeated reviewing, which provides many opportunities 
