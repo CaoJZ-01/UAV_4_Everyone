@@ -22,8 +22,8 @@ import G400 from "./GroundSynthetic/400.png";
 function Tablerederdrone() {
 
   const data = [
-    { id: 1, Datasetname: "Aerial Synthetic", Dateofupload: "10/12/2024", seasonality:"Summer, Fall, Winter",domain:"Drones", description: "Link provided below will download datasets from Hugging Face", datasetlink:"https://huggingface.co/datasets/CARG-uOttawa/DrIFT/resolve/main/Aerial_Synthetic.zip?download=true", imagePath: [A001, A032, A066, A096, A129, A392]},
-    { id: 2, Datasetname: "Ground Synthetic", Dateofupload: "10/12/2024",seasonality:"Winter",domain:"Drones", description: "Link provided below will download datasets from Hugging Face", datasetlink:"https://huggingface.co/datasets/CARG-uOttawa/DrIFT/resolve/main/Ground_Synthetic.zip?download=true", imagePath: [G002, G091, G148, G231, G306, G400]},
+    { id: 1, Datasetname: "Aerial Synthetic", Dateofupload: "10/12/2024", seasonality:"Summer, Fall, Winter",domain:"Drones", description: "Link provided below will download datasets from Hugging Face", datasetlink:"https://huggingface.co/datasets/CARG-uOttawa/DrIFT/resolve/main/Aerial_Synthetic.zip?download=true", imagePath: [A001, A032, A066]},
+    { id: 2, Datasetname: "Ground Synthetic", Dateofupload: "10/12/2024",seasonality:"Winter",domain:"Drones", description: "Link provided below will download datasets from Hugging Face", datasetlink:"https://huggingface.co/datasets/CARG-uOttawa/DrIFT/resolve/main/Ground_Synthetic.zip?download=true", imagePath: [G002, G091, G148]},
     // Add more dataset objects as needed
   ];
 
